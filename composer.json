@@ -1,0 +1,15 @@
+{
+    "name": "game/bee",
+    "description": "A simple bee game.",
+    "type": "composer",
+    "autoload": {
+        "psr-4": {
+        "Game\\": "src/Game"
+    }
+},
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
